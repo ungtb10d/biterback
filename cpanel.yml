@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/c/Users/Admin/backbiter.online/backbiter.online
+    - /bin/cp -R . $DEPLOYPATH
